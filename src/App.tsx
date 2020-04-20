@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Form from './components/Form';
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
-    <div>
-      <h1>Hello from typescript</h1>
+    <div className='container'>
+      <Form />
     </div>
   );
 };
